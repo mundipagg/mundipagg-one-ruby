@@ -19,6 +19,8 @@ module Gateway
     attr_accessor :ExtendedLimitEnabled
 
     attr_accessor :ExtendedLimitCode
+    
+    attr_accessor :NotificationUrl
 
     def to_json
       hash = {}
